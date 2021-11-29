@@ -1,0 +1,40 @@
+---Blazing Fast Lookup with Hash Tables---
+
+-binary search was NlogN time
+-hash lookup is O(1)
+-optimal lookup speed!
+
+--Hash Tables--
+
+-hash lookup takes just one step
+-code that converts letters to numbers is a hash function, verb, the act of hashing
+-apply hash function to the key of the hash table
+-by hashing the key we compute where the value should be placed, which is why we can look them up so fast
+
+--One Directional Lookup--
+
+-we dont get info on the key from the value, though
+-one way flow of information
+
+--Collisions--
+
+-keys bad and dab would have a collision in the hashing function
+-add reference to an array at that location in memory
+-adds a step of searching the array using linear search, which takes at most N steps
+
+--Making an Efficient Hash Table--
+
+-how much data?
+-how many cells are available?
+-what hash function should we use?
+
+--Hash Table Organization--
+
+-can resolve conditional logic
+-status code examples!
+-case statement replaced by hash lookup
+
+--Speed--
+
+-converting an array to a hash table where the values point to true
+-this allows for fast lookup to see if a value is present
