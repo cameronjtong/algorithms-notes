@@ -1,0 +1,9 @@
+---Optimizing Code with and Without Big O---
+
+-Even with the leading coefficent, you should be able to discern algo speeds
+
+--Selection Sort--
+
+-Check each cell for the lowest value
+-Swap it for the lowest non-sorted index
+-All steps are significant, even if it doesnt change the O(N)
