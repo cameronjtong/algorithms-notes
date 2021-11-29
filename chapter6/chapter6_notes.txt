@@ -1,0 +1,11 @@
+---Optimizing for Optimistic Scenarios---
+
+--Insertion Sort--
+
+- remove value at index 1
+-creates a gap
+-like continually picking up cards and comparing the picked up card with the sorted cards
+-O(N**2)
+-average case is great for insertion sort
+-most things we sort in industry are already partially sorted
+-breaking early can save time that would be wasted in the loop
