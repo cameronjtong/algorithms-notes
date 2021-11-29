@@ -1,0 +1,23 @@
+---Stacks and Queues---
+
+-new data structures
+-temporary data
+-they add additional restrictions to arrays
+
+--Stacks--
+
+-only insert and the end
+-first in, last out
+-last in, first out
+-think like a stack of dirty dishes
+
+--Abstract Data Types--
+
+-must be implemented using array
+-constrained data structures provide advantages
+
+--Queues--
+
+-first in first out
+-add to the back and remove from the front
+-like a lineup to buy tickets
