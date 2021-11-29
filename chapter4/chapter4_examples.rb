@@ -4,7 +4,7 @@ def bubble_sort(list)
   #tracks the rightmost unsorted element
   unsorted_until_index = list.length - 1
   sorted = false
-
+# track the right sorted end of the array
   while !sorted
     sorted = true
     (0...unsorted_until_index).each do |i|

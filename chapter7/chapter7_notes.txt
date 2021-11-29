@@ -1,0 +1,4 @@
+----Big O in Everyday Code---
+
+-Mostly examlples in this chapter
+-Don't let nested loops make you default to O(N**2), because its not always the case
