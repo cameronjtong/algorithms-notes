@@ -1,0 +1,61 @@
+---NOTES ON CH.1---
+
+-Readability and maintainability must be balanced with performance
+-Consider algorithm speed in terms of steps for an input size of N
+
+--Data Structures--
+
+-The way data is organized
+-Strings, arrays
+-Consider arrays versus sets next
+
+--Array--
+
+-Commonly use index notation (start at zero)
+-What do they do?
+  -Read => look up at a spot, like index 2
+  -Search => find a specific value, not knowing the index
+  -Insert => add a new value, either to the left or right end #push vs #prepend
+  -Delete => remove value, from either end with differing consequences
+
+--Speed--
+
+-how many steps for given input size
+-standizes accross machines
+
+--Reading--
+
+-View memory as a grid
+-Reading is one step from a given index
+-Array is a contiguous set in the memory grid
+-Referring to a specific index allows for direct memory access
+
+--Searching--
+
+-Given a value, show me the index
+-Many different ways to search
+-Check index 0 and every subsequent index
+-Could be fast or VERY slow
+-Worst case of N steps for this operation
+
+--Insertion--
+
+-Adding to the end of the array is single step
+-N+1 steps in a worst case of inserting at the left end, due to data shifts
+-Shift all elements to the right, then insert
+
+--Deletion--
+
+-Given a specific index, remove the item
+-If at the right end, single step
+-Could take N step, delete leftmost, then shift N-1 elements
+
+--Sets--
+
+-Additional constraint
+-Enforce uniqueness
+-Reading is the same
+-Searching is the same
+-Insertion differes => must first verify no duplication is present
+-N+1 steps everytime, must check every element in the array (inserting at the back end of the array)
+-Could be 2N + 1, check every element and shift every element to the right, then insert

@@ -1,0 +1,14 @@
+---Speeding Up Your Code with Big O---
+
+--Bubble Sort--
+-Bubble sort is a sorting algorithm
+-Given an array, make it ascending order
+-Uses pointers that move from leftmost to rightmost
+-for each cycle, the invariant is that the highest unsorted value is the rightmost element
+
+--Quadratics--
+
+-O(N**2) is more often that not due to nested loops
+-Quadratic is relatively slow
+-Always look for an alternative solution
+-Think about what the absolute best case could be, we know we have to look at each value once so linear!

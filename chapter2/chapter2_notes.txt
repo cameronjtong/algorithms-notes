@@ -1,0 +1,24 @@
+---Why Algorithms Matter---
+
+-Set of instructions for a given task
+
+--Ordered Array--
+
+-Enforces order
+-Must find valid index for insertion, like a set for duplication
+-Right shifts necessary for left side inserts
+-Unlike sets, this insertion search can stop when we get to a value greater than, and insert before it
+-View linear search!
+
+--Linear Search--
+
+-N steps in a worst case
+
+
+--Binary Search--
+
+-Like playing a guessing game
+-Works in successive halvings
+-Hot/Cold response and adjustment
+-For increasing inputs of N, binary search is far superior
+-For binary search, each doubling of input size N only adds a single step (log(N))

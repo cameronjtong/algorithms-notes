@@ -1,0 +1,20 @@
+---Big O Notation--
+
+-Cant describe algos just in terms of steps
+-Steps vary in terms of input size
+-Use a notation that considers how steps vary as N changes
+-To simplify, lets use the highest order term from the relation between steps and N
+-O(N) is linerar, O(1) is constant, ...etc
+-refer to CLRS for a more mathematically rigorous explanation
+
+--Soul of Big O--
+
+-Constant steps = O(1)
+
+
+--Log(N)--
+
+-View binary search
+-Based on successive halfings of the input data
+-Inverse of exponents
+-
