@@ -1,0 +1,24 @@
+---Learning to Write in Recursive---
+
+--Repeatadly Execute--
+-different categories of problems
+-different ways to solve different problems
+-one trick is to pass in extra parameters
+
+--Recursive Categories:Calculations--
+-perform a calculation based on a subproblem
+-think about what a subproblem is
+-can use parameters to store an intermediate calculation and then return it at the end
+-top down recursion is a new mental strategy
+  -understand the subproblem
+  -relax your brain and rely on the subproblem
+--Array Sum--
+-act as if the function has already been defined
+
+--Staircase Problem--
+-once you break down the problem into its subproblems, becomes simple
+-how many paths to the top of the stairs given multiple step increments
+
+--Anagram Generation--
+-when applying top-down thinking, act as if the method has already been defined
+-for anagrams, act as if you have all the anagrams but must just add in the last chatacter to each spot

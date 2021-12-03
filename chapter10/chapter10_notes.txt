@@ -1,0 +1,7 @@
+---Recursion---
+
+-solves difficult problems in easy ways
+-top down vs bottom up way of thinking is introduced
+-alternative to looping
+-the computer adds to the call stack, so #factorial(3) resolves AFTER factorial(1)
+-ex. factorial(3) is called first and completed last, as it requires the return values of its recursive calls
