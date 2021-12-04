@@ -1,0 +1,26 @@
+---Dynamic Programming---
+-use recursion responsibly
+-creates potentially very slow algos
+-was respobsible for a O(N!) algo last chapter
+
+--Unnecessary Recursive Calls--
+-showed tha we can reduce the time complexity significantly by introducing temps
+-contrast this introduction of temps with martin fowler's refactoring book where we remove temps
+
+--Overlapping Subproplems--
+-fibb sequence made two non-indentical calls to itself, into to dynamic programming
+
+--Memoization--
+-refer to memoization patterns for practical ruby use
+-use memoization to save previous calls, use a hash
+-take advanttage of using paramter list as a way to track data
+-this eliminates making multiple calls, as you would just access the hash
+-from O(N**2) to O(N)
+
+--Bottom Up Apporach--
+-how do we build this while not falling back on top down approach
+-turn brain back on and dont act as if the function has already been implemented
+
+--Exercise Notes--
+-if you have identical calls, store in a temp
+-if several non-identical calls, use a hash
