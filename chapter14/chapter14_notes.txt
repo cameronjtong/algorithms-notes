@@ -1,0 +1,20 @@
+---Node-Based Data Structures---
+-a node is a piece of data dispersed in memory, not necessarily consecutive or contiguous
+-new tradeoffs in efficiency
+
+--Linked-Lists--
+-use code to point to a data point in memory
+-scattered across the computers memory
+-linked lists have a head and a tail
+-reading is inferior to arrays, as index lookup takes O(N) time
+-insertion at head is O(1) versus O(N + 1) for arrays
+-deletion at beginning favours linked lists
+-change pointer
+
+--Doubly Linked List--
+-points to the front and the back
+-move forward and backward
+-new params to set
+-can build a queue on a doubly linked list
+-know how to reverse, and manipulate the data
+-good puzzle on removing a node from the middle without access to the instance (copy over data)
