@@ -1,0 +1,21 @@
+---Recursive Algorithms for Speed---
+-most computers are using quicksort
+-not bubble sort or insertion sort
+-recursion can speed up an algorithm although its missuse is responsible for some of the slowest
+
+--Partitioning--
+-to partition an array means to take a random value, the PIVOT
+-for consistency we take the rightmost as the pivot
+-you use this pivot and ensure than every number to the left of the pivot is less......
+  -walkthrough
+  -for given examples, use the rightmost value as pivot (any is valid)
+  -left pointer continuosly moves to the right until value greater than pivot
+  -right pivot moves left until it finds a value less than the pivot
+  - if both pointers are stationary and left pointer is still on the left, swap them
+  -reactivate left pivot
+  -swap pivot with left pointer
+
+--QuickSelect--
+-need a value from a non-sorted array
+-average case is NlogN, based on partitioning
+
