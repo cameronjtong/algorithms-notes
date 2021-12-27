@@ -1,0 +1,28 @@
+---Speeding up All the Things with BST---
+-fastest sorts are Nlog(N)
+-hash tables to not maintain order
+-BST is a structure that maintains order and is fast for search, inser, and deletion
+
+--Trees--
+-a tree is like a linked list
+-the difference is that each node can have multiple pointers
+-uppermost is called the root
+-have descendants and ancestors
+-balanced vs unbalanced tree
+
+--Binary Search Tree--
+-each node has one child with a lesser value than itself, and one with a greater value
+-takes LogN levels for a dataset of size N to be in a BST
+-well balanced trees arise from random data
+-dont want to insert sorted data
+-deletion is the most complex mechanism
+-for deletion there are several cases to consider
+  -if node has no children, delete it
+  -if node has one child, delete the node and replace it with its child
+  -if node has two children replace with successor node, the leftmost child
+  -if the successor has a right child, take the former right child and put it where the successor node was
+-pass in the root
+-base case is when the node doesnt exist
+-overwrite the nodes left child to be the result of recursively calling the delete f'n on current nodes left child
+-delete will eventually return a node
+-calling delete usually returns the same node so change is not inevitable
