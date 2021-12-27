@@ -1,0 +1,28 @@
+---Heaps---
+-specialty is when we want to keep tabs on greatst or least in a dataset
+
+--Priority Queue--
+-ER example
+-insertion maintains order
+
+--Heaps--
+-binary heaps
+-heap has additional conditions
+-value of each node is greater than each of its descendants
+-tree must be complete
+-cant be any nodes next to an empty condition in a complete tree
+-the heap inserts and deletes
+-to insert:
+  -place at rightmost bottom level
+  -move up through the heap to maintain heap condition
+-to delete
+  -only ever delete the root node
+  -move last node to root node, trickle root node down
+-heaps can use array for implementation
+-to work with the array, use this trick to find the children
+  -left child is index * 2 + 1
+  -right child is index * 2 + 2
+-trickle up until the parent is greater than the child
+-array implementation is the most common approach
+-a heap can be used a priority queue
+-maintains order and pops from the top
