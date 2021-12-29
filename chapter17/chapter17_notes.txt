@@ -1,0 +1,28 @@
+---Trie---
+-smartphone autocomplete
+-tries can be used to allow for important features for text applications
+
+--Tries--
+-collection of nodes pointing to other nodes
+-any number of child nodes
+-final character has a child node, asterisk
+
+--Trie Search--
+-can search to see if its a complete word or at least a prefix
+
+--Efficiency--
+-as many steps as there are characters to check
+-hash is O(1)
+-O(K) because O(N) would refer to the number of nodes in the Trie
+
+--Trie Insertion--
+-works like search untill we find that no child node exists
+-add a * child after
+
+--Building Autocomplete--
+-need method that returns an array of all the words in the trie
+-method will accept any node of the trie and will return array of words that start with that
+
+--Trie with Value--
+-show the most popular options
+-put the value as the child of the asterisk
